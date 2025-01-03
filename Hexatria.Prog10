@@ -1,0 +1,47 @@
+print ("Hexatria 02-01-2025")
+print ("Comparison Operators")
+
+x = 7 # Variabel x diberi nilai 7
+print ("x = 7")
+
+# Operator perbandingan (comparison operators)
+
+print (">>>Mengecek apakah x lebih besar dari 9<<<")
+hasil = x > 9 
+print("x > 9 =", hasil)
+
+print (">>>Mengecek apakah x lebih kecil dari 9<<<")
+hasil = x < 9 
+print("x < 9 =", hasil)
+
+print (">>>Mengecek apakah x lebih besar atau sama dengan 7<<<")
+hasil = x >= 7  
+print("x >= 7 =", hasil)
+
+
+print (">>>Mengecek apakah x lebih besar atau sama dengan 6<<<")
+hasil = x <= 6 
+print("x <= 6 =", hasil)
+
+print (">>>Mengecek apakah x sama dengan 7<<<")
+hasil = x == 7
+print("x == 7 =", hasil)
+
+print (">>>Mengecek apakah x tidak sama dengan 7<<<")
+hasil = x != 7 
+print("x != 7 =", hasil)
+
+print ("===Menggunakan 'is' dan 'is not'===")
+
+print ("Variabel y juga diberi nilai 9")
+print ("Y = 9")
+
+y = 9
+
+print ("==Mengecek apakah x dan y merujuk ke obiek yang sama==")
+hasil = x is y 
+print("x is y =", hasil)
+
+print ("==Mengecek apakah x dan y merujuk pada objek yang berbeda==")
+hasil = x is not y  # Mengecek apakah x dan y merujuk ke objek yang berbeda
+print("x is not y =", hasil)
